@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d8c08be9c6892b7672e56e8a5d5aeec0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d8c08be9c6892b7672e56e8a5d5aeec0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d8c08be9c6892b7672e56e8a5d5aeec0 = L.map(
+                "map_d8c08be9c6892b7672e56e8a5d5aeec0",
+                {
+                    center: [44.883244, -93.28624],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c7595558ffc8e2eb0959d9ac6e276352 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c7595558ffc8e2eb0959d9ac6e276352.addTo(map_d8c08be9c6892b7672e56e8a5d5aeec0);
+        
+    
+            var marker_1123fea5d4d02e8cbaa70233542d6f23 = L.marker(
+                [44.883244, -93.28624],
+                {
+}
+            ).addTo(map_d8c08be9c6892b7672e56e8a5d5aeec0);
+        
+    
+            var icon_66654cb17f21b6b39859a7ff0bd2baff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44a7d4e059cf1b4dd095649ebea6e664 = L.popup({
+  "maxWidth": 380,
+});
+
+        
+            
+                var html_f1d1b51ff5d8c81eec2f0803e8583cec = $(`<div id="html_f1d1b51ff5d8c81eec2f0803e8583cec" style="width: 100.0%; height: 100.0%;">     <div style="width: 340px">       <table><tr><th>Store ID</th><td>281</td></tr><tr><th>Store Name</th><td>Best Buy Richfield</td></tr><tr><th>Address</th><td>1000 West 78th St, Minneapolis, MN, 55423</td></tr><tr><th>Tax Area ID</th><td></td></tr><tr><th>Effective Tax Rate</th><td></td></tr><tr><th>Total Tax on Test Sale</th><td></td></tr><tr><th>Jurisdictions</th><td></td></tr><tr><th>Status</th><td>failed</td></tr></table>     </div>     </div>`)[0];
+                popup_44a7d4e059cf1b4dd095649ebea6e664.setContent(html_f1d1b51ff5d8c81eec2f0803e8583cec);
+            
+        
+
+        marker_1123fea5d4d02e8cbaa70233542d6f23.bindPopup(popup_44a7d4e059cf1b4dd095649ebea6e664)
+        ;
+
+        
+    
+    
+            marker_1123fea5d4d02e8cbaa70233542d6f23.bindTooltip(
+                `<div>
+                     281 - Best Buy Richfield
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1123fea5d4d02e8cbaa70233542d6f23.setIcon(icon_66654cb17f21b6b39859a7ff0bd2baff);
+            
+</script>
+</html>

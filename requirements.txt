@@ -1,0 +1,4 @@
+folium>=0.16,<1
+python-dotenv>=1,<2
+requests>=2.31,<3
+

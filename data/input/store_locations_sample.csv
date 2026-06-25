@@ -1,0 +1,30 @@
+store_id,store_name,street,city,state,postal_code,country,latitude,longitude
+281,Best Buy Richfield,1000 West 78th St,Minneapolis,MN,55423,US,44.883244,-93.286240
+450,Best Buy Cascade Station,9739 NE Cascades Pkwy,Portland,OR,97220,US,45.573900,-122.559500
+465,Best Buy Concord Pike,4807 Concord Pike,Wilmington,DE,19803,US,39.823000,-75.548000
+536,Best Buy Manchester,1500 S Willow St,Manchester,NH,03103,US,42.960900,-71.439300
+763,Best Buy Honolulu,478 Alakawa St,Honolulu,HI,96817,US,21.318700,-157.872000
+539,Best Buy Anchorage (Dimond Mall),800 E Dimond Blvd Ste 100 Dimond Mall,Anchorage,AK,99515,US,61.143700,-149.867500
+1760,Best Buy North Anchorage (Tikahtnu Commons),1200 N Muldoon Rd Ste G Tikahtnu Commons,Anchorage,AK,99504,US,61.225000,-149.743700
+1028,Best Buy Midtown Manhattan (44th And 5th),531 5th Ave,New York,NY,10017,US,40.754000,-73.980600
+183,Best Buy Atwater Village,2909 Los Feliz Blvd,Los Angeles,CA,90039,US,34.125000,-118.267300
+109,Best Buy West LA,11301 W Pico Blvd,Los Angeles,CA,90064,US,34.035700,-118.441400
+1142,Best Buy South Loop,555 W Roosevelt Rd,Chicago,IL,60607,US,41.867600,-87.641500
+323,Best Buy North Avenue,1000 W North Ave,Chicago,IL,60642,US,41.910200,-87.653400
+470,Best Buy Northgate,330 NE Northgate Way,Seattle,WA,98125,US,47.708100,-122.325600
+1768,Best Buy East Houston,6006 E Sam Houston Pkwy N,Houston,TX,77049,US,29.811500,-95.164500
+291,Best Buy Galleria,5133 Richmond Ave,Houston,TX,77056,US,29.731500,-95.466100
+253,Best Buy Camelback,1949 E Camelback Rd Ste 101,Phoenix,AZ,85016,US,33.509000,-112.039300
+552,Best Buy West Kendall,12495 SW 88th St,Miami,FL,33186,US,25.685600,-80.397700
+553,Best Buy Tropicaire,7751 Bird Rd,Miami,FL,33155,US,25.733800,-80.321100
+1498,Best Buy Miami Beach,1131 5th St,Miami Beach,FL,33139,US,25.774200,-80.139100
+9073,Best Buy Warehouse Portland,3880 NW Yeon Ave,Portland,OR,97210,US,45.547300,-122.712400
+8,Best Buy Burnsville,1600 County Road 42 W,Burnsville,MN,55337,US,44.7447,-93.2887
+540,Best Buy Coon Rapids,12633 Riverdale Blvd NW,Coon Rapids,MN,55448,US,45.1975,-93.3588
+14,Best Buy Rochester,4050 Hwy 52 N,Rochester,MN,55901,US,44.0611,-92.5044
+43,Best Buy Duluth,5105 Burning Tree Rd,Duluth,MN,55811,US,46.8077,-92.1686
+12,Best Buy St Cloud,4130 W Division St,Saint Cloud,MN,56301,US,45.5523,-94.2137
+330,Best Buy Mankato,1895 Adams St,Mankato,MN,56001,US,44.1661,-93.9519
+1055,Best Buy Eagan,1235 Town Centre Dr,Eagan,MN,55123,US,44.8329,-93.1575
+10,Best Buy Maplewood,1795 County Rd D E,Maplewood,MN,55109,US,45.0362,-93.0277
+7,Best Buy Roseville,1643 County Road B2,Roseville,MN,55113,US,45.0112,-93.1688

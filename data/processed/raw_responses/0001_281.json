@@ -1,0 +1,5 @@
+{
+  "error": "Vertex request failed: HTTPSConnectionPool(host='vertex8-ws-qa', port=443): Max retries exceeded with url: /vertex-ws/v2/supplies (Caused by NameResolutionError(\"HTTPSConnection(host='vertex8-ws-qa', port=443): Failed to resolve 'vertex8-ws-qa' ([Errno 11001] getaddrinfo failed)\"))",
+  "response_text": "",
+  "status_code": null
+}

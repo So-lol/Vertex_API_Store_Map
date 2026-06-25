@@ -1,0 +1,30 @@
+{
+  "data": {
+    "customer": {
+      "destination": {
+        "taxAreaId": "566195143"
+      }
+    },
+    "lineItems": [
+      {
+        "extendedPrice": "100.00",
+        "taxResult": "NO_TAX",
+        "taxes": [
+          {
+            "calculatedTax": "0.00",
+            "effectiveRate": "0.0000",
+            "imposition": {
+              "value": "Sales and Use Tax"
+            },
+            "jurisdiction": {
+              "value": "OR"
+            },
+            "jurisdictionType": "STATE",
+            "result": "NO_TAX"
+          }
+        ],
+        "totalTax": "0.00"
+      }
+    ]
+  }
+}

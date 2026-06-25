@@ -1,0 +1,30 @@
+{
+  "data": {
+    "customer": {
+      "destination": {
+        "taxAreaId": "534515583"
+      }
+    },
+    "lineItems": [
+      {
+        "extendedPrice": "100.00",
+        "taxResult": "TAXABLE",
+        "taxes": [
+          {
+            "calculatedTax": "8.25",
+            "effectiveRate": "0.0825",
+            "imposition": {
+              "value": "Sales and Use Tax"
+            },
+            "jurisdiction": {
+              "value": "IL"
+            },
+            "jurisdictionType": "STATE",
+            "result": "TAXABLE"
+          }
+        ],
+        "totalTax": "8.25"
+      }
+    ]
+  }
+}
